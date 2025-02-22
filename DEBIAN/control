@@ -1,0 +1,11 @@
+Package: deksenv
+Version: 0.1
+Maintainer: @black-scythe0
+Installed-Size: ~1234 kB
+Recommends: proot-distro, x11-nightly
+Homepage: <empty>
+Download-Size: ~300 kB
+APT-Manual-Installed: yes
+Architecture: all
+Description: A package to make installing and running desktop environments in native-termux or proot-distro easier.
+

@@ -1,0 +1,13 @@
+#!/data/data/com.termux/files/usr/bin/sh
+apt update && apt upgrade -y
+apt install tur-repo x11-repo python
+
+chmod +x $PREFIX/bin/deksenv
+
+hash -r
+for i in {1..5};do 
+    echo " "; 
+done
+
+
+echo "Use 'deksenv -h' or 'dek -h'  for more info"
